@@ -10,10 +10,10 @@
         Base {
             label = "Base";
             bindings = <
-    &kp TAB     &kp Q   &kp W   &kp E       &kp R   &kp T                 &kp Y   &kp U      &kp I    &kp O     &kp P    &kp BSPC
-    &kp ESC     &kp A   &kp S   &kp D       &kp F   &kp G                 &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp APOS
+    &kp TAB     &kp Q   &mt LCTRL W   &mt LEFT_ALT E       &mt LEFT_GUI R  &kp T                 &kp Y   &mt RIGHT_GUI U      &mt RIGHT_ALT I    &mt RCTRL O     &kp P    &kp BSPC
+    &kp ESC     &kp A   &lt 3 S   &lt 2 D       &lt 1 F   &kp G                 &kp H   &lt 1 J      &lt 2 K    &lt 3 L  &kp SINGLE_QUOTE    &kp APOS
     &kp LSHFT   &kp Z   &kp X   &kp C       &kp V   &kp B                 &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                                &kp LCTRL   &mo 1   &kp SPACE           &kp RET   &mo 2 &mo 2
+                                &kp ESCAPE      &kp LEFT_SHIFT  &mt LS(LA(LCTRL)) SPACE    &mt LS(LA(LC(LEFT_GUI))) ENTER  &kp BACKSPACE    &kp TAB
             >;
 
         };
