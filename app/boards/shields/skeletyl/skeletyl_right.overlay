@@ -7,7 +7,7 @@
 #include "skeletyl.dtsi"
 
 &default_transform {
-    col-offset = <7>;
+    col-offset = <5>;
 };
 
 &kscan0 {
